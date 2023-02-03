@@ -71,15 +71,15 @@ export const Main = () => {
                 float: "left",
                 margin: "0px 0px 100px 100px",
                 backgroundColor: "red",
-                borderRadius:'20px',
-                padding:'10px',
+                borderRadius:'10px',
+                padding:'5px',
                 border: "skyblue",
                 textDecoration: "none",
                 color: "black",
               }}
               to={qNumber <= 1 ? "/start" : "/"}
             >
-              <h4>PREV</h4>
+              <h6>PREV</h6>
             </Link>
 
             <button
@@ -89,13 +89,13 @@ export const Main = () => {
                 float: "right",
                 margin: "0px 100px 100px 0px",
                 backgroundColor: "red",
-                borderRadius:'20px',
-                padding:'10px',
+                borderRadius:'10px',
+                padding:'5px',
                 border: "skyblue",
               }}
             >
               {" "}
-              <h4> NEXT </h4>{" "}
+              <h6> NEXT </h6>{" "}
             </button>
           </div>
         </div>
