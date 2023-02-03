@@ -7,6 +7,8 @@ import { Start } from "../src/Components/Start";
 
 function App() {
   return (
+    <div className="app"  style={{ display:'flex',flexDirection:'column' , position:'sticky' }}>
+
     <Router>
       <div className="App">
         <Header />
@@ -16,6 +18,7 @@ function App() {
         <Route path="/start" element={<Start />} />
       </Routes>
     </Router>
+    </div>
   );
 }
 

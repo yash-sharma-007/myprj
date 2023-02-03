@@ -33,7 +33,7 @@ export const Main = () => {
   };
 
   return (
-    <div style={{ padding: "80px", backgroundColor: "skyblue" }}>
+    <div style={{ display:'flex',flexWrap:'wrap' ,justifyContent:'center' , padding: "80px", backgroundColor: "skyblue" }}>
       <AppContext.Provider value={{ qNumber, setqNumber, check, status }}>
         <div className="Main">
           <ProgressBlock />
@@ -58,9 +58,12 @@ export const Main = () => {
               <h3> {qNumber}/20 </h3>
               <h4> {Questions[qNumber]} </h4>
             </div>
+
+
+
           </div>
           <Buttons />
-          <div>
+          <div className="bt2">
             <Link
               onClick={PrevPage}
               style={{

@@ -10,6 +10,7 @@ export const ProgressBlock = () => {
         display: "flex",
         flexdirection: "column",
         justifyContent: "center",
+        flexWrap:'wrap'
         
       }}
     >
@@ -40,7 +41,7 @@ export const ProgressBlock = () => {
         ) : (
           <Progress pr={100} />
         )}{" "}
-        <h3> DISILLUSIONED </h3>{" "}
+        <h3> CYNICAL </h3>{" "}
       </span>
 
       <span style={{ margin: "0px 60px 0px 60px" , width:'100px' }}>
@@ -52,7 +53,7 @@ export const ProgressBlock = () => {
         ) : (
           <Progress pr={100} />
         )}{" "}
-        <h3> DISILLUSIONED </h3>{" "}
+        <h3> HOPEFUL </h3>{" "}
       </span>
     </div>
   );

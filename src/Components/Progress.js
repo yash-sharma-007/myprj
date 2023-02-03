@@ -3,7 +3,7 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 export const Progress = (props) => {
   const now = 60;
   return (
-    <span style={{ width: "20%", overflowX: "hidden" }}>
+    <span style={{ width: "25%", overflowX: "hidden" }}>
       <ProgressBar
         className="m-2"
         style={{
@@ -16,6 +16,6 @@ export const Progress = (props) => {
         label={`${now}%`}
         visuallyHidden
       />
-    </span>
+     </span>
   );
 };

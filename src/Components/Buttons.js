@@ -22,6 +22,7 @@ export const Buttons = () => {
   };
   return (
     <div
+      className="box"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -85,21 +86,11 @@ export const Buttons = () => {
       </div>
 
       <div className="Ans">
-        <div className="ans-btn">
-          <h3>Strongly Disagree</h3>{" "}
-        </div>
-        <div className="ans-btn">
-          <h3>Disagree</h3>
-        </div>
-        <div className="ans-btn">
-          <h3>Neutral</h3>
-        </div>
-        <div className="ans-btn">
-          <h3>Agree</h3>
-        </div>
-        <div className="ans-btn">
-          <h3>Strongly Agree</h3>
-        </div>
+          <h5>Strongly Disagree</h5>
+          <h5>Disagree</h5>
+          <h5>Neutral</h5>
+          <h5>Agree</h5>
+          <h5>Strongly Agree</h5>
       </div>
     </div>
   );
