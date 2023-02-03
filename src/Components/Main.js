@@ -19,7 +19,6 @@ export const Main = () => {
     "I question whether I can remain effective in my role long-term.",
     "It is my job to be faithful; it is God’s job to bring about outcomes.",
     "When I face a challenge, I spend meaningful time praying for guidance.",
-    "Knowing that Jesus promised trials, I strive to keep the “light and momentary” nature of trials I face in perspective, looking toward a promised future.",
     "Though I have faced many challenges, God has been faithful.",
     "I question whether I can remain effective in my role long-term.",
   ];
