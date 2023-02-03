@@ -67,9 +67,12 @@ export const Main = () => {
             <Link
               onClick={PrevPage}
               style={{
+                
                 float: "left",
                 margin: "0px 0px 100px 100px",
-                backgroundColor: "white",
+                backgroundColor: "red",
+                borderRadius:'20px',
+                padding:'10px',
                 border: "skyblue",
                 textDecoration: "none",
                 color: "black",
@@ -82,9 +85,12 @@ export const Main = () => {
             <button
               onClick={NextPage}
               style={{
+                
                 float: "right",
                 margin: "0px 100px 100px 0px",
-                backgroundColor: "white",
+                backgroundColor: "red",
+                borderRadius:'20px',
+                padding:'10px',
                 border: "skyblue",
               }}
             >
